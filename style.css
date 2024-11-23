@@ -7,11 +7,14 @@ body {
     background-color: gray;
     font-family: arial, san-serif;
     color: #333;
+    padding: 20px;
 }
 nav {
     display: flex;
     gap: 300px;
     background-color: black;
+    text-align: center;
+    padding: 10px;
 }
 nav a{
     color: yellow;
@@ -20,4 +23,9 @@ nav a{
 }
 nav a:hover{
     color: red;
+}
+header{
+    padding: 30px;
+    margin:auto;
+    max-width: 1200px;
 }
