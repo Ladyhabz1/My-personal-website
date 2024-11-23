@@ -8,3 +8,16 @@ body {
     font-family: arial, san-serif;
     color: #333;
 }
+nav {
+    display: flex;
+    gap: 300px;
+    background-color: black;
+}
+nav a{
+    color: yellow;
+    padding: 10px;
+    text-decoration: none;        
+}
+nav a:hover{
+    color: red;
+}
