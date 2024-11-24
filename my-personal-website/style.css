@@ -73,14 +73,14 @@ form input[type="text"] {
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-    color: white;
+    color: black;
     margin-bottom:20px;
 }
 form button[type="submit"]{
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-    color: white;
+    color: black;
     margin-bottom:20px;    
 }
 form button[type="submit"]:hover{
