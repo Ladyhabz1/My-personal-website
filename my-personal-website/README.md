@@ -4,14 +4,12 @@ This is a personal website
 # Personal Portfolio Website
 
 ##### By Habiba Hassan Guyo
-
 <!-- ##### [Site](https://ladyhabz1.github.io/My-personal-website/)-->
 
 ## Table of content
 + [Project title and Description](#Description)
 + [Technology Used](#Technology-used)
 + [Installation & Requirement](#Requirements)
-+ [Future Improvemnets](#Future-Improvements)
 + [Contact Information](#Contact-Information)
 
 # Habiba's Website
