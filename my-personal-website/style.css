@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: #333;
+    padding: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+ p{
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 15px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;  
+}
+nav a{
+    color: yellow;
+    padding: 10px;
+    text-decoration: none;  
+         
+}
+nav a:hover{
+    color: red;
+}
+header{
+    padding: 30px;
+    margin:auto;
+    max-width: 1200px;
+}
+section{
+    margin-bottom: 20px;
+}
+section h2{
+    margin-bottom:10px;
+    color: #b5b81b;
+    font-size: 24px;
+}
+section p{
+    font size: 16px;
+    color: black;
+}
+#Skills ul{
+    color: white;
+}
+strong{
+    color: white
+}
+#Projects {
+    list-style-type: none;
+    color: white;
+}
+#Contact a{
+    display: inline-block;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contact a:hover{
+    text-decoration: underline;
+}
+form input[type="text"] {
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    margin-bottom:20px;
+}
+form button[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    margin-bottom:20px;    
+}
+form button[type="submit"]:hover{
+    background-color: darkgray;
+}
+footer{
+    background-color: #333;
+    padding: 10px;
+    max-width: 200px;
+}
