@@ -5,7 +5,7 @@ This is a personal website
 
 ##### By Habiba Hassan Guyo
 
-<!-- ##### [Site](https://github.com/Ladyhabz1/My-personal-website.git/)-->
+<!-- ##### [Site](https://ladyhabz1.github.io/My-personal-website/)-->
 
 ## Table of content
 + [Project title and Description](#Description)
