@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
+    box-sizing: border-box;
+>>>>>>> ccea68f (change the title to my Personal Website)
 }
 
 body {
@@ -10,10 +14,19 @@ body {
 }
 h1{
     margin-bottom: 20px;
+<<<<<<< HEAD
 }
  p{
     font-weight: bold;
 }
+=======
+    color: white;
+}
+p{
+    font-weight: bold;
+ }
+
+>>>>>>> ccea68f (change the title to my Personal Website)
 nav {
     display: flex;
     gap: 15px;
@@ -44,8 +57,13 @@ section h2{
     font-size: 24px;
 }
 section p{
+<<<<<<< HEAD
     font size: 16px;
     color: black;
+=======
+    font-size: 18px;
+    color: white;
+>>>>>>> ccea68f (change the title to my Personal Website)
 }
 #Skills ul{
     color: white;
@@ -71,14 +89,23 @@ form input[type="text"] {
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
+<<<<<<< HEAD
     color: white;
+=======
+    background-color: white;
+    color: black;
+>>>>>>> ccea68f (change the title to my Personal Website)
     margin-bottom:20px;
 }
 form button[type="submit"]{
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
+<<<<<<< HEAD
     color: white;
+=======
+    color: black;
+>>>>>>> ccea68f (change the title to my Personal Website)
     margin-bottom:20px;    
 }
 form button[type="submit"]:hover{
@@ -87,5 +114,12 @@ form button[type="submit"]:hover{
 footer{
     background-color: #333;
     padding: 10px;
+<<<<<<< HEAD
     max-width: 200px;
 }
+=======
+    max-width: 250px;
+    color: white;
+    border-radius: 30px;
+    }
+>>>>>>> ccea68f (change the title to my Personal Website)
