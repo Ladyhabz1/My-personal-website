@@ -1,125 +1,131 @@
+/* Global reset for all elements */
 * {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-=======
     box-sizing: border-box;
->>>>>>> ccea68f (change the title to my Personal Website)
 }
 
+/* Body styles */
 body {
     background-color: black;
     color: #333;
     padding: 20px;
+    font-family: Arial, sans-serif;
 }
-h1{
-    margin-bottom: 20px;
-<<<<<<< HEAD
-}
- p{
-    font-weight: bold;
-}
-=======
-    color: white;
-}
-p{
-    font-weight: bold;
- }
 
->>>>>>> ccea68f (change the title to my Personal Website)
+/* Heading 1 styling */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-weight: bold;
+    color: white;
+    font-size: 18px; /* Consolidated font size */
+}
+
+/* Navigation bar styling */
 nav {
     display: flex;
     gap: 15px;
     background-color: black;
     text-align: center;
-    padding: 10px;  
+    padding: 10px;
 }
-nav a{
+
+nav a {
     color: yellow;
     padding: 10px;
-    text-decoration: none;  
-         
+    text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: red;
 }
-header{
+
+/* Header styling */
+header {
     padding: 30px;
-    margin:auto;
+    margin: auto;
     max-width: 1200px;
 }
-section{
+
+/* Section styling */
+section {
     margin-bottom: 20px;
 }
-section h2{
-    margin-bottom:10px;
+
+section h2 {
+    margin-bottom: 10px;
     color: #b5b81b;
     font-size: 24px;
 }
-section p{
-<<<<<<< HEAD
-    font size: 16px;
-    color: black;
-=======
-    font-size: 18px;
-    color: white;
->>>>>>> ccea68f (change the title to my Personal Website)
-}
-#Skills ul{
+
+/* Section paragraph styling */
+section p {
+    font-size: 18px; /* Unified font size */
     color: white;
 }
-strong{
-    color: white
+
+/* Skills section styling */
+#Skills ul {
+    color: white;
 }
+
+/* Strong element styling */
+strong {
+    color: white;
+}
+
+/* Projects section styling */
 #Projects {
     list-style-type: none;
     color: white;
 }
-#Contact a{
+
+/* Contact link styling */
+#Contact a {
     display: inline-block;
     color: orangered;
     font-weight: bold;
     text-decoration: none;
 }
-#contact a:hover{
+
+#Contact a:hover {
     text-decoration: underline;
 }
+
+/* Form styling */
 form input[type="text"] {
     width: 40%;
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-<<<<<<< HEAD
-    color: white;
-=======
+    color: black; /* Corrected text color */
     background-color: white;
-    color: black;
->>>>>>> ccea68f (change the title to my Personal Website)
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-form button[type="submit"]{
+
+form button[type="submit"] {
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-<<<<<<< HEAD
-    color: white;
-=======
-    color: black;
->>>>>>> ccea68f (change the title to my Personal Website)
-    margin-bottom:20px;    
+    color: black; /* Fixed text color */
+    background-color: white; /* Added background color for consistency */
+    margin-bottom: 20px;
 }
-form button[type="submit"]:hover{
+
+form button[type="submit"]:hover {
     background-color: darkgray;
 }
-footer{
+
+/* Footer styling */
+footer {
     background-color: #333;
     padding: 10px;
-<<<<<<< HEAD
-    max-width: 200px;
-}
-=======
-    max-width: 250px;
+    max-width: 250px; /* Corrected the max-width value */
     color: white;
     border-radius: 30px;
-    }
->>>>>>> ccea68f (change the title to my Personal Website)
+    text-align: center;
+}

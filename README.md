@@ -1,7 +1,7 @@
 
 # Habiba's Website
 This is a simple personal website that I used to practice HTML and CSS. It introduces myself, showcases my skills, displays projects I've worked on, and provides contact information.
-=======
+
 
 
 ## Table of content
