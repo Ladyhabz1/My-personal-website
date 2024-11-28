@@ -1,24 +1,14 @@
-<<<<<<< HEAD
+
 # Habiba's Website
 This is a simple personal website that I used to practice HTML and CSS. It introduces myself, showcases my skills, displays projects I've worked on, and provides contact information.
 =======
-# phase-0-personal-portfolio-website
-This is a personal website 
 
-# Personal Portfolio Website
-
-##### By Habiba Hassan Guyo
-<!-- ##### [Site](https://ladyhabz1.github.io/My-personal-website/)-->
->>>>>>> ccea68f (change the title to my Personal Website)
 
 ## Table of content
 + [Project title and Description](#Description)
 + [Technology Used](#Technology-used)
 + [Installation & Requirement](#Requirements)
-<<<<<<< HEAD
-+ [Future Improvemnets](#Future-Improvements)
-=======
->>>>>>> ccea68f (change the title to my Personal Website)
+
 + [Contact Information](#Contact-Information)
 
 # Habiba's Website
@@ -46,8 +36,4 @@ For questions and comments can be reached through:
 [Email](guyohabibahassan@gmail.com)
 [Linkedln](https://www.linkedin.com/in/habiba-hassan-031667281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
-<<<<<<< HEAD
-##
-=======
 
->>>>>>> ccea68f (change the title to my Personal Website)
