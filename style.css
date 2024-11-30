@@ -1,131 +1,132 @@
-/* Global reset for all elements */
+* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+/* Body Styling */
 body {
-    background-color: black;
-    color: #333;
+    background-color: #121212; /* Elegant dark background */
+    color: #e0e0e0; /* Light text for contrast */
+    font-family: 'Roboto', Arial, sans-serif; /* Modern font */
+    line-height: 1.8; /* Improved readability */
     padding: 20px;
-    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-/* Heading 1 styling */
-h1 {
-    margin-bottom: 20px;
+/* Header Styling */
+header {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a); /* Gradient for depth */
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
-/* Paragraph styles */
-p {
+header h1 {
+    color: #f4f4f4;
+    font-size: 2.8rem;
     font-weight: bold;
-    color: white;
-    font-size: 18px; /* Consolidated font size */
+    margin-bottom: 10px;
+}
+header p {
+    color: #aaaaaa;
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
-/* Navigation bar styling */
+/* Navigation Bar */
 nav {
     display: flex;
-    gap: 15px;
-    background-color: black;
-    text-align: center;
-    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
 }
 
 nav a {
-    color: yellow;
-    padding: 10px;
+    color: #ffcc00; /* Bright yellow */
+    padding: 10px 15px;
     text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
 }
 
 nav a:hover {
-    color: red;
+    color: #ff5722; /* Vibrant hover color */
+    transform: scale(1.1); /* Subtle hover effect */
 }
-
-/* Header styling */
-header {
-    padding: 30px;
-    margin: auto;
-    max-width: 1200px;
-}
-
-/* Section styling */
+/* Section Styling */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e1e1e; /* Soft dark background */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
 
 section h2 {
-    margin-bottom: 10px;
-    color: #b5b81b;
-    font-size: 24px;
-}
-
-/* Section paragraph styling */
-section p {
-    font-size: 18px; /* Unified font size */
-    color: white;
-}
-
-/* Skills section styling */
-#Skills ul {
-    color: white;
-}
-
-/* Strong element styling */
-strong {
-    color: white;
-}
-
-/* Projects section styling */
-#Projects {
-    list-style-type: none;
-    color: white;
-}
-
-/* Contact link styling */
-#Contact a {
+    margin-bottom: 15px;
+    color: #ffcc00; /* Bright yellow for headings */
+    font-size: 2rem;
+    border-bottom: 2px solid #ffcc00; /* Underline for elegance */
     display: inline-block;
-    color: orangered;
-    font-weight: bold;
-    text-decoration: none;
+    padding-bottom: 5px;
 }
 
-#Contact a:hover {
-    text-decoration: underline;
+section p {
+    font-size: 1.1rem;
+    color: #cccccc;
 }
 
-/* Form styling */
-form input[type="text"] {
-    width: 40%;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    color: black; /* Corrected text color */
-    background-color: white;
-    margin-bottom: 20px;
+/* Key Highlights List */
+section ul {
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 0;
+}
+section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+    color: #e0e0e0;
+    font-size: 1rem;
 }
 
-form button[type="submit"] {
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    color: black; /* Fixed text color */
-    background-color: white; /* Added background color for consistency */
-    margin-bottom: 20px;
+section ul li:last-child {
+    border-bottom: none;
 }
 
-form button[type="submit"]:hover {
-    background-color: darkgray;
-}
-
-/* Footer styling */
+/* Footer Styling */
 footer {
-    background-color: #333;
-    padding: 10px;
-    max-width: 250px; /* Corrected the max-width value */
-    color: white;
-    border-radius: 30px;
     text-align: center;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: #aaaaaa;
+    font-size: 0.9rem;
+}
+
+/* Button Styling */
+button, a.button {
+    background: #ffcc00;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover, a.button:hover {
+    background: #ff5722;
+    transform: scale(1.05);
 }

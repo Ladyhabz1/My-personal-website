@@ -3,55 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Habiba's Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <title>HABIBA HASSAN GUYO</title>
 </head>
 <body>
-    <h1>Welcome TO My Page</h1>
-     <p>It contains the following sections: </p>
+
+    <!-- Header section -->
+          <header>
+        <h1>Empowering Business With Impactful Solutions</h1>
+        <p>Tranforming ideas into impactful designs that drive success.</p>
+     </header>
+
+     <!--Navigation-->
      <nav>
-        <a href="#About">About me</a>
+        <a href="#About">About Me</a>
         <a href="#Skills">Skills</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact</a>
-    </nav>
-    <header>
-           
-            <section id="About">  
-            <h2>About me</h2>
-            <p>I’m Habiba, a student from Moringa, Kenya. Passionate about learning and coding. I’ve gained skills in web development, including HTML, CSS, and JavaScript, and love using technology to solve real-world problems. Beyond tech, I’m dedicated to empowering my community, especially girls, by showing them that with hard work, determination, and support, we can break barriers and achieve our dreams.</p>
-        </section>
-        <section id="Skills">
-            <h2>Skills</h2>
-            <p>Here are the skills I have learned: </p>
+        <a href="projects">Projects</a>
+        <a href="contact">Contact</a>
+     </nav>
+
+     <!--About Section-->
+     <section id="About">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m <strong>Habiba Guyo</strong>, a creative designer and problem-solver with a mission to empower businesses 
+            through cutting-edge design and innovative strategies. I love using technology to solve real-world problems.  My passion lies in blending aesthetics and functionality to deliver exceptional results that exceed expectations. 
+            When I’m not designing, you’ll find me exploring the latest design trends, mentoring young creatives, or working on personal projects.
+        </p>
+        
+        <p>
+            Beyond tech, I enjoy mentoring young creatives, playing pool, and exploring new trends in technology. In my free time, you’ll find me reading about design innovations, writing blogs, or empowering others through community workshops. These hobbies keep me inspired and connected to my purpose. I’m dedicated to empowering my community, especially girls, by showing them that with hard work, determination, and support, we can break barriers and achieve our dreams.        
+        </p>
+
+         <!--Key highlights-->
+         <div id="highlights">
+            <h3>Key highlights</h3>
             <ul>
-                <li><strong>Markup and style sheet languages:</strong>HTML and CSS</li>
-                <li><strong>Tools:</strong>Git, Github, VS Code</li>
-                <li><strong>Soft skills:</strong>Problem-Solving, Teamwork</li>
-                <li><strong>Debugging</strong>Identifying and fixing code errors</li>
+                <li><strong>5+ years of experience</strong> in web and graphic design.</li>
+                <li><strong>100+ successful projects</strong> delivered globally.</li>
+                <li><strong>Specialist in branding</strong> and user experience design.</li>
+                <li>Dedicated to <strong>building meaningful connections</strong> through design.</li>
             </ul>
-        </section>
-        <section id="Projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>Habiba's Website</li>
-                <li>phase-0-css-rainbow-lab</li>
-                <li>phase-0-css-kitten-lab</li>
-            </ul>
-        </section>
-        <section id="Contact">
-            <h2>Contact</h2>
-            <p>You can reach me through:</p>
-            <a href="guyohabibahassan@gmail.com">gmail</a>
-            <a href="https://www.linkedin.com/in/habiba-hassan-031667281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" >Linkdln</a>
-        </section>
-    </header>
-        <form>
-            <input type="text" placeholder="Enter a password">
-            <button type="submit">Submit</button>
+         </div>
+
+         <!--Call-to-action-->
+         <p>
+            Ready to bring your ideas to life? Lets work together to create something amazing!
+            <a href="#contact" style="color: orangered; font-weight: bold; text-decoration: none;">Get in touch</a>
+         </p>
+     </section>
+
+     <!--skills section-->
+     <section id="Skills">
+        <ul>
+            <li><strong>Web Design:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Graphic Design:</strong> Adobe Photoshop, Illustrator</li>
+            <li><strong>Development Tools:</strong> Git, GitHub, Figma</li>
+            <li><strong>Soft Skills:</strong> Creative Problem Solving, Team Collaboration</li>
+        </ul>
+     </section>
+
+     <!--project section-->
+     <section>
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <article>
+                <h3>Habiba's Portfolio</h3>
+                <p>My personal portfolio showcasing innovative designs and development projects.</p>
+            </article>
+            <article>
+                <h3>Global Branding Campaign</h3>
+                <p>Developed a cohesive branding strategy for a multinational client.</p>
+            </article>
+            <article>
+                <h3>Interactive Web Applications</h3>
+                <p>Designed user-friendly interfaces for web applications focused on e-commerce.</p>
+            </article>
+        </div>
+     </section>
+
+     <!--Footer-->
+     <footer id="Contact">
+        <h2>Contact Me</h2>
+        <p>Let’s collaborate! Fill out the form below to get in touch:</p>
+        <form action="#" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Your name" required>
+            
+            <label for="Email">Email: </label>
+            <input type="Email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
         </form>
-        <footer>
-            <p>&copy; 2024 Habiba Hassan</p>
-        </footer>    
-    </body>
+
+        <p>&copy; 2024 Habiba Guyo. All rights reserved.</p>
+     </footer>
+</body>
 </html>
